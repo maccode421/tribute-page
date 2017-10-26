@@ -23,12 +23,12 @@ img {
     font-weight: bold;
 }
 
-#bio {
+.list, #bio, form {
     font-size: 18px;
     margin: 1% 33%;
     padding: 2%;
 }
 
-.list {
-    font-size: 18px;
-}
+/*#numberList {*/
+/*    padding: 1%;*/
+/*}*/
