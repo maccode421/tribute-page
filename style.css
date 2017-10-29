@@ -14,6 +14,7 @@ h1 {
 
 img {
     border-radius: 50%;
+    z-index: 1;
 }
 
 .quote {
@@ -29,6 +30,11 @@ img {
     padding: 2%;
 }
 
-/*#numberList {*/
-/*    padding: 1%;*/
-/*}*/
+.container {
+    text-align: center;
+}
+
+#myCarousel {
+    position: absolute;
+    right: 32%;
+}
