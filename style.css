@@ -7,27 +7,34 @@ body {
     text-align: center;
 }
 
-h1 {
+h1:hover {
     color: #0d04f9;
     font-weight: bold;
 }
 
 img {
     border-radius: 50%;
+    position: relative;
     z-index: 1;
 }
 
 .quote {
-    color: #0d04f9;
+    /*color: #0d04f9;*/
     font-family: 'Caveat', cursive;
     font-size: 24px;
     font-weight: bold;
+    padding-bottom: 2%;
 }
 
-.list, #bio, form {
+#quote-border {
+    border-bottom: solid;
+}
+
+.list, #bio{
+    border-bottom: solid;
     font-size: 18px;
     margin: 1% 33%;
-    padding: 2%;
+    padding: 1%;
 }
 
 .container {
